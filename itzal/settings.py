@@ -82,6 +82,19 @@ DATABASES = {
     }
 }
 
+#En caso de querer usar MYSql
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'nombre_de_base_de_datos',
+#         'USER': 'usuario_mysql',
+#         'PASSWORD': 'contraseña_mysql',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
+# }
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
